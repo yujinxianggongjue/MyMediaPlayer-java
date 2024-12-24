@@ -1,0 +1,8 @@
+com.example.mediaplayerapp.shared.test.shared-annotation-experimental-1.1.0-0 /Users/simple/.gradle/caches/8.9/transforms/175fbbcbefe2d724fe3928d4558fe9dd/transformed/annotation-experimental-1.1.0/res
+com.example.mediaplayerapp.shared.test.shared-media-1.6.0-1 /Users/simple/.gradle/caches/8.9/transforms/5387efc14525f5c75103ab7eb10eb24b/transformed/media-1.6.0/res
+com.example.mediaplayerapp.shared.test.shared-core-1.6.0-2 /Users/simple/.gradle/caches/8.9/transforms/844cf8e7d1297b44b91660355b967ad9/transformed/core-1.6.0/res
+com.example.mediaplayerapp.shared.test.shared-androidTest-3 /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/generated/res/resValues/androidTest/debug
+com.example.mediaplayerapp.shared.test.shared-mergeDebugAndroidTestResources-4 /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.mediaplayerapp.shared.test.shared-mergeDebugAndroidTestResources-5 /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.mediaplayerapp.shared.test.shared-debugAndroidTest-6 /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+com.example.mediaplayerapp.shared.test.shared-debug-7 /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/packaged_res/debug/packageDebugResources

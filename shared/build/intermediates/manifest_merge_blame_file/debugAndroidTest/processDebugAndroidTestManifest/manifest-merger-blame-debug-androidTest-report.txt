@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mediaplayerapp.shared.test" >
+4
+5    <uses-sdk
+5-->/Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14852577539017723541.xml:5:5-74
+6        android:minSdkVersion="33"
+6-->/Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14852577539017723541.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->/Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14852577539017723541.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14852577539017723541.xml:11:5-15:88
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14852577539017723541.xml:11:22-76
+11        android:functionalTest="false"
+11-->/Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14852577539017723541.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14852577539017723541.xml:13:22-53
+13        android:label="Tests for com.example.mediaplayerapp.shared.test"
+13-->/Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14852577539017723541.xml:15:22-86
+14        android:targetPackage="com.example.mediaplayerapp.shared.test" />
+14-->/Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14852577539017723541.xml:12:22-84
+15
+16    <application
+16-->/Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14852577539017723541.xml:7:5-9:19
+17        android:appCategory="audio"
+17-->[:shared] /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:18-45
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.6.0] /Users/simple/.gradle/caches/8.9/transforms/844cf8e7d1297b44b91660355b967ad9/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false" >
+21        <uses-library android:name="android.test.runner" />
+21-->/Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14852577539017723541.xml:8:9-60
+21-->/Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14852577539017723541.xml:8:23-57
+22
+23        <meta-data
+23-->[:shared] /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:9-10:59
+24            android:name="com.google.android.gms.car.application"
+24-->[:shared] /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:9:13-66
+25            android:resource="@xml/automotive_app_desc" />
+25-->[:shared] /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:10:13-56
+26        <!--
+27         Main music service, provides media browsing and media playback services to
+28         consumers through MediaBrowserService and MediaSession. Consumers connect to it through
+29         MediaBrowser (for browsing) and MediaController (for playback control)
+30        -->
+31        <service
+31-->[:shared] /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:17:9-23:19
+32            android:name="com.example.mediaplayerapp.shared.MyMusicService"
+32-->[:shared] /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:18:13-76
+33            android:exported="true" >
+33-->[:shared] /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:19:13-36
+34            <intent-filter>
+34-->[:shared] /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:20:13-22:29
+35                <action android:name="android.media.browse.MediaBrowserService" />
+35-->[:shared] /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:17-83
+35-->[:shared] /Users/simple/AndroidStudioProjects/mediaplayerapp/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:21:25-80
+36            </intent-filter>
+37        </service>
+38    </application>
+39
+40</manifest>
